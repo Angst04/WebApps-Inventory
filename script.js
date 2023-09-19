@@ -9,3 +9,4 @@ if (prefersDarkMode) {
 };
 
 console.log(tg.InitData())
+console.log("Сайт работает")
