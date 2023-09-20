@@ -9,6 +9,7 @@ if (prefersDarkMode) {
   theme.href = 'light-mode.css'
 };
 
+alert(tg.InitData)
 tg.showConfirm(tg.InitData())
 console.log(tg.InitData())
 console.log("Сайт работает")
