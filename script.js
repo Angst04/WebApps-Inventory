@@ -12,7 +12,7 @@ if (prefersDarkMode) {
 };
 
 document.getElementById("p1").innerHTML = data;
-document.getElementById("p2").innerHTML = data_1;
+document.getElementById("p2").innerHTML = data_2;
 
 tg.showAlert(data)
 alert(data)
