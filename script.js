@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-const { first_name, last_name, username } = tg.initDataUnsafe.user;
+const data = tg.initDataUnsafe.first_name
 
 tg.expand()
 let theme = document.getElementById('theme');
@@ -10,9 +10,9 @@ if (prefersDarkMode) {
   theme.href = 'light-mode.css'
 };
 
-document.getElementById("p1").innerHTML = username;
-tg.showAlert(first_name)
-alert(first_name)
-alert(username)
-console.log(username)
+document.getElementById("p1").innerHTML = data;
+
+tg.showAlert(data)
+alert(data)
+console.log(data)
 console.log("Сайт работает")
