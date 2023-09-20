@@ -10,6 +10,8 @@ if (prefersDarkMode) {
   theme.href = 'light-mode.css'
 };
 
+document.getElementById("p1").innerHTML = username;
+
 tg.showAlert(first_name)
 alert(first_name)
 alert(username)
